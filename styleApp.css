@@ -1,0 +1,43 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'ubuntu' , sans-serif;
+    height: 100%;
+
+}
+
+#header {
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    padding: 9px 50px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+.nav-link {
+    list-style: none;
+    padding: 0px 35px;
+}
+
+.nav-link > a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.9em;
+}
+
+.nav-link > a:hover {
+    text-decoration: underline;
+}
